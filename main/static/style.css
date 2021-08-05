@@ -1,0 +1,162 @@
+body {
+    font: 14pt Arial, sans-serif;
+	background: #2196f3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.centered_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectTitle {
+	text-align: center;
+	padding-left: 06%;
+}
+
+p {
+    font-size: 25px;
+}
+
+
+#left {
+    float: left;
+    width: 25%;
+	margin: 10px 10px 10px 25px;
+
+}
+
+#av {
+    float: left;
+    width: 50%;
+	margin: 10px;
+}
+
+#right {
+    float: right;
+    width: 22.8%;
+    position: absolute;
+    top: 20;
+    right: 0;
+
+}
+
+.chatbox{
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	float: right;
+	margin-right: 15%;
+	margin-top: 90px;
+}
+.chatbox>h1{
+	text-align: center;
+}
+
+.chats{
+	height: 100%;
+	border: solid;
+	padding: 10px;
+}
+
+.flex-container{
+}
+#send{
+	margin-top: 5px;
+}
+#message{
+	width: 237px;
+	color: black;
+}
+i{
+	padding: 5px;
+}
+
+div#controls div {
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* width: 40%; */
+}
+
+div#controls div.display {
+    display: block;
+}
+
+#av {
+    width: 50%;
+    margin: 10px;
+}
+
+#controls {
+    /* width: 40%; */
+}
+
+#effectMix {
+    padding-top: 12px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+
+[onclick] {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.projectTitle {
+    text-align: center;
+}
+
+.av_stream {
+    width: 60%;
+    float: left;
+    /* background-color: #6d6464; */
+}
+
+.round_button {
+	width: 100px;
+	font-size: 30px;
+}
+
+.round_button:active {
+    background-color: #692c01;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.emoTracker {
+    display: flex;
+    align-items: center;
+}
+
+.emoTracker>span {
+    margin-right: 5px;
+}
+
+#effectMix,
+#controls {
+    background-color: #63605a;
+}
+
+#main_feed {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    border-style: solid;
+}
+.audio-options{
+	margin-top: 80px;
+	padding-bottom: 10px;
+}

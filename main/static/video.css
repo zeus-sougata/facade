@@ -1,0 +1,153 @@
+body {
+    font: 14pt Arial, sans-serif;
+    background-image: url(./extras/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+div {
+    font-weight: bold;
+}
+
+#left {
+    float: left;
+    width: 25%;
+}
+
+#av {
+    float: left;
+    width: 50%;
+}
+
+#right {
+    float: right;
+    width: 25%;
+    position: absolute;
+    top: 20;
+    right: 0;
+}
+
+
+/* #myForm {
+    position: absolute;
+    right: 5px;
+    position: fixed;
+    bottom: 200px;
+    width: 22%;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+} */
+
+div#controls div {
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* width: 40%; */
+}
+
+div#controls div.display {
+    display: block;
+}
+
+#av {
+    width: 50%;
+    margin: 10px;
+}
+
+#controls {
+    /* width: 40%; */
+}
+
+#effectMix {
+    padding-top: 12px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+
+[onclick] {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.projectTitle {
+    text-align: center;
+}
+
+.av_stream {
+    width: 60%;
+    float: left;
+    /* background-color: #6d6464; */
+}
+
+.round_button {
+    background-color: #43009c;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: none;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+.round_button:active {
+    background-color: #692c01;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/* .other_controls {
+    width: 20%;
+    float: left;
+    padding: 5px;
+    top: 10px;
+    padding-top: 0px;
+    border-style: solid;
+} */
+
+.emoTracker {
+    display: flex;
+    align-items: center;
+}
+
+.emoTracker>span {
+    margin-right: 5px;
+}
+
+#effectMix,
+#controls {
+    background-color: #63605a;
+}
+
+#main_feed {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    border-style: solid;
+}

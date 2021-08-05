@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Welcome to Facade</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../static/index.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+		{% include 'main/includes/navbar.html' %}
+		{% include 'main/includes/messages.html' %}
+		<div class="row">
+			<div class="column left-col" >
+				<a href="/stream" class = "button1">Start a new stream</a>
+			</div>
+			<div class="column right-col">
+				<a href="/join" class = "button2">Join this stream</a>
+			</div>
+		</div>
+	</body>
+</html>
